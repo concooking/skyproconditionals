@@ -66,16 +66,15 @@ public class Main {
             System.out.println("В вагоне мест нет");
         }
         // Задача 7
-        int one = 1;
-        int two = 2;
-        int three = 3;
+        int one = 10;
+        int two = 500;
+        int three = 300;
         if (one > two && one > three) {
-            System.out.println("Наибольшее число one");
-            if (two > one && two > three) {
-                System.out.println("Наибольшее число two");
-            }
+            System.out.println("Наибольшее число " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшее число " + two);
         } else {
-            System.out.println("Наибольшее число three");
+        System.out.println("Наибольшее число " + three);
         }
     }
 }
