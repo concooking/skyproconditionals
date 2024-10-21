@@ -59,21 +59,21 @@ public class Main {
             if (places <= 60) {
                 System.out.println("В вагоне есть сидячие места");
             }
-                if (places > 60) {
-                    System.out.println("В вагоне есть стоячие места");
+            if (places > 60) {
+                System.out.println("В вагоне есть стоячие места");
             }
-            } else {
-                System.out.println("В вагоне мест нет");
-            }
+        } else {
+            System.out.println("В вагоне мест нет");
+        }
         // Задача 7
         int one = 1;
         int two = 2;
         int three = 3;
         if (one > two && one > three) {
             System.out.println("Наибольшее число one");
-        if (two > one && two > three) {
-            System.out.println("Наибольшее число two");
-        }
+            if (two > one && two > three) {
+                System.out.println("Наибольшее число two");
+            }
         } else {
             System.out.println("Наибольшее число three");
         }
